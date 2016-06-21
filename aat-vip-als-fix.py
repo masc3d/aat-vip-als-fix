@@ -42,7 +42,7 @@ output_als = os.path.abspath(args.output_als)
 hdp_dict = dict()
 
 log.info('Converting %s -> %s' % (input_als, output_als))
-log.info('Extracting smaple filenames from HDPs')
+log.info('Extracting sample filenames from HDPs')
 for root, dirs, files in os.walk(input_als_dir):
     if root is not input_als_dir:
         for filename in files:
